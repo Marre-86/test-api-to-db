@@ -6,6 +6,20 @@
 
 ![Sample Image](public/info.png)
 
+Приложение задеплоено на PaaS-платформу **Railway**, параметры базы данных таковы:
+**DATABASE_URL**
+postgresql://postgres:967S2Z8D9iTxt8FhfK05@containers-us-west-57.railway.app:6077/railway
+**PGDATABASE**
+railway
+**PGHOST**
+containers-us-west-57.railway.app
+**PGPASSWORD**
+967S2Z8D9iTxt8FhfK05
+**PGPORT**
+6077
+**PGUSER**
+postgres
+
 ### Что было нужно сделать
 
 Задача: стянуть все данные по описаным эндпоинтам и сохранить в БД.

@@ -9,6 +9,8 @@ use App\Models\Income;
 use App\Models\Sale;
 use App\Models\Order;
 
+ini_set('memory_limit', '256M');
+
 class GetData extends Command
 {
     protected $signature = 'app:get-data';
