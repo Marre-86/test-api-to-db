@@ -33,7 +33,7 @@ return new class extends Migration
             $table->bigInteger('odid');
             $table->integer('spp');
             $table->decimal('for_pay', 10, 2);
-            $table->integer('finished_price');
+            $table->decimal('finished_price', 10, 2);
             $table->decimal('price_with_disc', 10, 2);
             $table->integer('nm_id');
             $table->string('subject');

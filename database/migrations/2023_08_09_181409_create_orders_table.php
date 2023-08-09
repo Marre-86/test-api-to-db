@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('supplier_article');
             $table->string('tech_size');
             $table->string('barcode');
-            $table->integer('total_price');
+            $table->decimal('total_price', 10, 2);
             $table->integer('discount_percent');
             $table->string('warehouse_name');
             $table->string('oblast');
